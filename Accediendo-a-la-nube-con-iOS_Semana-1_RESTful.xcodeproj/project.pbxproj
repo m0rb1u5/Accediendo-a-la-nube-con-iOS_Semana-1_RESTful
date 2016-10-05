@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9427B9AF1DA4E2F10025ACB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427B9AE1DA4E2F10025ACB3 /* AppDelegate.swift */; };
+		9427B9B11DA4E2F10025ACB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427B9B01DA4E2F10025ACB3 /* ViewController.swift */; };
+		9427B9B41DA4E2F10025ACB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9427B9B21DA4E2F10025ACB3 /* Main.storyboard */; };
+		9427B9B71DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9427B9B51DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodeld */; };
+		9427B9B91DA4E2F10025ACB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9427B9B81DA4E2F10025ACB3 /* Assets.xcassets */; };
+		9427B9BC1DA4E2F10025ACB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9427B9BA1DA4E2F10025ACB3 /* LaunchScreen.storyboard */; };
+		9427B9C71DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427B9C61DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulTests.swift */; };
+		9427B9D21DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427B9D11DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9427B9C31DA4E2F20025ACB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9427B9A31DA4E2F00025ACB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9427B9AA1DA4E2F00025ACB3;
+			remoteInfo = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+		};
+		9427B9CE1DA4E2F20025ACB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9427B9A31DA4E2F00025ACB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9427B9AA1DA4E2F00025ACB3;
+			remoteInfo = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9427B9AB1DA4E2F10025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9427B9AE1DA4E2F10025ACB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9427B9B01DA4E2F10025ACB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9427B9B31DA4E2F10025ACB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9427B9B61DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodel; sourceTree = "<group>"; };
+		9427B9B81DA4E2F10025ACB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9427B9BB1DA4E2F10025ACB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9427B9BD1DA4E2F10025ACB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9427B9C21DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9427B9C61DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulTests.swift; sourceTree = "<group>"; };
+		9427B9C81DA4E2F20025ACB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9427B9CD1DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9427B9D11DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulUITests.swift; sourceTree = "<group>"; };
+		9427B9D31DA4E2F20025ACB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9427B9A81DA4E2F00025ACB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9427B9BF1DA4E2F20025ACB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9427B9CA1DA4E2F20025ACB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9427B9A21DA4E2F00025ACB3 = {
+			isa = PBXGroup;
+			children = (
+				9427B9AD1DA4E2F10025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful */,
+				9427B9C51DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests */,
+				9427B9D01DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests */,
+				9427B9AC1DA4E2F10025ACB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9427B9AC1DA4E2F10025ACB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9427B9AB1DA4E2F10025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful.app */,
+				9427B9C21DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests.xctest */,
+				9427B9CD1DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9427B9AD1DA4E2F10025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful */ = {
+			isa = PBXGroup;
+			children = (
+				9427B9AE1DA4E2F10025ACB3 /* AppDelegate.swift */,
+				9427B9B01DA4E2F10025ACB3 /* ViewController.swift */,
+				9427B9B21DA4E2F10025ACB3 /* Main.storyboard */,
+				9427B9B81DA4E2F10025ACB3 /* Assets.xcassets */,
+				9427B9BA1DA4E2F10025ACB3 /* LaunchScreen.storyboard */,
+				9427B9BD1DA4E2F10025ACB3 /* Info.plist */,
+				9427B9B51DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodeld */,
+			);
+			path = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+			sourceTree = "<group>";
+		};
+		9427B9C51DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests */ = {
+			isa = PBXGroup;
+			children = (
+				9427B9C61DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulTests.swift */,
+				9427B9C81DA4E2F20025ACB3 /* Info.plist */,
+			);
+			path = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests";
+			sourceTree = "<group>";
+		};
+		9427B9D01DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9427B9D11DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulUITests.swift */,
+				9427B9D31DA4E2F20025ACB3 /* Info.plist */,
+			);
+			path = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9427B9AA1DA4E2F00025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9427B9D61DA4E2F20025ACB3 /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful" */;
+			buildPhases = (
+				9427B9A71DA4E2F00025ACB3 /* Sources */,
+				9427B9A81DA4E2F00025ACB3 /* Frameworks */,
+				9427B9A91DA4E2F00025ACB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+			productName = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+			productReference = 9427B9AB1DA4E2F10025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9427B9C11DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9427B9D91DA4E2F20025ACB3 /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests" */;
+			buildPhases = (
+				9427B9BE1DA4E2F20025ACB3 /* Sources */,
+				9427B9BF1DA4E2F20025ACB3 /* Frameworks */,
+				9427B9C01DA4E2F20025ACB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9427B9C41DA4E2F20025ACB3 /* PBXTargetDependency */,
+			);
+			name = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests";
+			productName = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests";
+			productReference = 9427B9C21DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9427B9CC1DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9427B9DC1DA4E2F20025ACB3 /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests" */;
+			buildPhases = (
+				9427B9C91DA4E2F20025ACB3 /* Sources */,
+				9427B9CA1DA4E2F20025ACB3 /* Frameworks */,
+				9427B9CB1DA4E2F20025ACB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9427B9CF1DA4E2F20025ACB3 /* PBXTargetDependency */,
+			);
+			name = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests";
+			productName = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests";
+			productReference = 9427B9CD1DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9427B9A31DA4E2F00025ACB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Juan Carlos Carbajal Ipenza";
+				TargetAttributes = {
+					9427B9AA1DA4E2F00025ACB3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+					};
+					9427B9C11DA4E2F20025ACB3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9427B9AA1DA4E2F00025ACB3;
+					};
+					9427B9CC1DA4E2F20025ACB3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 85667CV2UC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9427B9AA1DA4E2F00025ACB3;
+					};
+				};
+			};
+			buildConfigurationList = 9427B9A61DA4E2F00025ACB3 /* Build configuration list for PBXProject "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9427B9A21DA4E2F00025ACB3;
+			productRefGroup = 9427B9AC1DA4E2F10025ACB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9427B9AA1DA4E2F00025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful */,
+				9427B9C11DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests */,
+				9427B9CC1DA4E2F20025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9427B9A91DA4E2F00025ACB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9427B9BC1DA4E2F10025ACB3 /* LaunchScreen.storyboard in Resources */,
+				9427B9B91DA4E2F10025ACB3 /* Assets.xcassets in Resources */,
+				9427B9B41DA4E2F10025ACB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9427B9C01DA4E2F20025ACB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9427B9CB1DA4E2F20025ACB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9427B9A71DA4E2F00025ACB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9427B9B11DA4E2F10025ACB3 /* ViewController.swift in Sources */,
+				9427B9AF1DA4E2F10025ACB3 /* AppDelegate.swift in Sources */,
+				9427B9B71DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9427B9BE1DA4E2F20025ACB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9427B9C71DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9427B9C91DA4E2F20025ACB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9427B9D21DA4E2F20025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTfulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9427B9C41DA4E2F20025ACB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9427B9AA1DA4E2F00025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful */;
+			targetProxy = 9427B9C31DA4E2F20025ACB3 /* PBXContainerItemProxy */;
+		};
+		9427B9CF1DA4E2F20025ACB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9427B9AA1DA4E2F00025ACB3 /* Accediendo-a-la-nube-con-iOS_Semana-1_RESTful */;
+			targetProxy = 9427B9CE1DA4E2F20025ACB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9427B9B21DA4E2F10025ACB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9427B9B31DA4E2F10025ACB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9427B9BA1DA4E2F10025ACB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9427B9BB1DA4E2F10025ACB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9427B9D41DA4E2F20025ACB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9427B9D51DA4E2F20025ACB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9427B9D71DA4E2F20025ACB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-1-RESTful";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9427B9D81DA4E2F20025ACB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-1-RESTful";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9427B9DA1DA4E2F20025ACB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-1-RESTfulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accediendo-a-la-nube-con-iOS_Semana-1_RESTful.app/Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+			};
+			name = Debug;
+		};
+		9427B9DB1DA4E2F20025ACB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-1-RESTfulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accediendo-a-la-nube-con-iOS_Semana-1_RESTful.app/Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+			};
+			name = Release;
+		};
+		9427B9DD1DA4E2F20025ACB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-1-RESTfulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+			};
+			name = Debug;
+		};
+		9427B9DE1DA4E2F20025ACB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 85667CV2UC;
+				INFOPLIST_FILE = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Accediendo-a-la-nube-con-iOS-Semana-1-RESTfulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9427B9A61DA4E2F00025ACB3 /* Build configuration list for PBXProject "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427B9D41DA4E2F20025ACB3 /* Debug */,
+				9427B9D51DA4E2F20025ACB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9427B9D61DA4E2F20025ACB3 /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-1_RESTful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427B9D71DA4E2F20025ACB3 /* Debug */,
+				9427B9D81DA4E2F20025ACB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9427B9D91DA4E2F20025ACB3 /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427B9DA1DA4E2F20025ACB3 /* Debug */,
+				9427B9DB1DA4E2F20025ACB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9427B9DC1DA4E2F20025ACB3 /* Build configuration list for PBXNativeTarget "Accediendo-a-la-nube-con-iOS_Semana-1_RESTfulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427B9DD1DA4E2F20025ACB3 /* Debug */,
+				9427B9DE1DA4E2F20025ACB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9427B9B51DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9427B9B61DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodel */,
+			);
+			currentVersion = 9427B9B61DA4E2F10025ACB3 /* Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodel */;
+			path = Accediendo_a_la_nube_con_iOS_Semana_1_RESTful.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9427B9A31DA4E2F00025ACB3 /* Project object */;
+}
